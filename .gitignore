@@ -16,3 +16,4 @@
 
 # Ignore this RubyMine thing
 .idea/*
+database.yml

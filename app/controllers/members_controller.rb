@@ -78,7 +78,7 @@ class MembersController < ApplicationController
     @avatar = Avatar.find_by_member_id(params[:member_id])
 
     # Fire it out to the screen
-    unless @image.nil?
+    unless @avatar.nil?
       @image = @avatar.binary_data
       send_data @image, :type => @avatar.content_type, :disposition => 'inline'
     end

@@ -12,9 +12,8 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: defaultdb
-  username: postgres
-  password: pass@word1
+  database: yegrubyists
+  username: ryan
   host: localhost
   pool: 5
 
